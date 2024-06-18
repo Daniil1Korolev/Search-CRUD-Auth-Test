@@ -1,0 +1,15 @@
+﻿<Window x:Class="testUsers.Auth"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:testUsers"
+        mc:Ignorable="d"
+        Title="Auth" Height="450" Width="800">
+    <Grid>
+        <PasswordBox x:Name="UserPassword" HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Top" Width="178" Height="34"/>
+        <TextBox x:Name="UserLogin" HorizontalAlignment="Center" Margin="0,182,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178" Height="35"/>
+        <Button Content="Войти" HorizontalAlignment="Center" Margin="0,329,0,0" VerticalAlignment="Top" Height="36" Width="210" Click="Button_Click"/>
+
+    </Grid>
+</Window>
